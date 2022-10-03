@@ -1,0 +1,9 @@
+#rodape {
+    background-color: gray;
+    padding: 1% 2.5%;
+}
+
+#rodape_logo {
+    font-family: 'Great Vibes';
+    font-size: 2.5em;
+}

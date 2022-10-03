@@ -1,0 +1,33 @@
+/* Fontes externas */
+/* Kanit */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+#home {
+    padding: 1%;
+    background-color: darkgray;
+}
+
+/* Classes */
+.home_category_box {
+    padding: 1%;
+    max-width: var(--max-width-screen);
+    margin: auto;
+}
+
+.home_category_title_container {
+    padding: .6% 3%;
+    border-radius: 20px;
+}
+
+.home_category_title {
+    font-family: 'Kanit';
+}
+
+.home_category_publications {
+    padding: 1%;
+    display: inline-grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    column-gap: 1%;
+    row-gap: 5%;
+    justify-content: center;
+}
